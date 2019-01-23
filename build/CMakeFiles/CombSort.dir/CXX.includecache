@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 ../headers/functions.h
+fstream
+-
+time.h
+-
 
 /home/szayo/Desktop/CombSort.projectcpp/sources/main.cpp
 iostream

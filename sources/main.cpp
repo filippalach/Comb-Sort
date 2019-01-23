@@ -15,6 +15,8 @@ int main()
 	pushFront(H,3);
 
 	showList(H);
+	combSort(H);
+	showList(H);
 
 	return 0;
 }
