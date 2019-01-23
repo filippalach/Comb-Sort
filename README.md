@@ -1,2 +1,2 @@
 # Comb-Sort
-C++ Comb Sort Implementation
+C++ Comb Sort Implementation using singly linked list. CMade.
