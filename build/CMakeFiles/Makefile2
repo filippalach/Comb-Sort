@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/szayo/Desktop/CombSort.projectcpp
+CMAKE_SOURCE_DIR = /home/szayo/Desktop/Comb-Sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/szayo/Desktop/CombSort.projectcpp/build
+CMAKE_BINARY_DIR = /home/szayo/Desktop/Comb-Sort/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/CombSort.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/szayo/Desktop/CombSort.projectcpp/build
 CMakeFiles/CombSort.dir/all:
 	$(MAKE) -f CMakeFiles/CombSort.dir/build.make CMakeFiles/CombSort.dir/depend
 	$(MAKE) -f CMakeFiles/CombSort.dir/build.make CMakeFiles/CombSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles --progress-num=1,2 "Built target CombSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/szayo/Desktop/Comb-Sort/build/CMakeFiles --progress-num=1,2 "Built target CombSort"
 .PHONY : CMakeFiles/CombSort.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/CombSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CombSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szayo/Desktop/Comb-Sort/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CombSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/szayo/Desktop/Comb-Sort/build/CMakeFiles 0
 .PHONY : CMakeFiles/CombSort.dir/rule
 
 # Convenience name for target.

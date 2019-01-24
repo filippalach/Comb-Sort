@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/szayo/Desktop/CombSort.projectcpp/sources/main.cpp" "/home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles/CombSort.dir/sources/main.cpp.o"
+  "/home/szayo/Desktop/Comb-Sort/sources/main.cpp" "/home/szayo/Desktop/Comb-Sort/build/CMakeFiles/CombSort.dir/sources/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

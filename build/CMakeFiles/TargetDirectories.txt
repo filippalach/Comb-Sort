@@ -1,3 +1,3 @@
-/home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles/rebuild_cache.dir
-/home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles/CombSort.dir
-/home/szayo/Desktop/CombSort.projectcpp/build/CMakeFiles/edit_cache.dir
+/home/szayo/Desktop/Comb-Sort/build/CMakeFiles/rebuild_cache.dir
+/home/szayo/Desktop/Comb-Sort/build/CMakeFiles/CombSort.dir
+/home/szayo/Desktop/Comb-Sort/build/CMakeFiles/edit_cache.dir

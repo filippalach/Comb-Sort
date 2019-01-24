@@ -7,13 +7,8 @@ int main()
 {
 	node *H=NULL;
 
-	pushFront(H,1);
-	pushFront(H,2);
-	pushFront(H,3);
-	pushFront(H,1);
-	pushFront(H,11);
-	pushFront(H,3);
-
+	uploadToFile();
+	loadFromFile(H,"DataSet.txt");
 	showList(H);
 	combSort(H);
 	showList(H);

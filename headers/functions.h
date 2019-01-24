@@ -15,7 +15,7 @@ void showList();
 unsigned int countList(node);
 
 void uploadToFile();
-void loadFromFile(node *&,char*);
+void loadFromFile(node *&,std::string);
 void newGap(int&);
 
 void combSort(node *&H);
@@ -46,6 +46,7 @@ void showList(node *H)
 		std::cout << p->val << " ";
 		p=p->next;
 	}
+	std::cout << std::endl;
 }
 
 unsigned int countList(node *H)
@@ -64,7 +65,7 @@ void uploadToFile()
 {
 	int x;
 	srand(time(NULL));	
-	std::fstream data ("file.txt", std::ios::out );
+	std::fstream data ("DataSet.txt", std::ios::out );
 	for (int i=0; i<10; i++)
 	{
 		x=rand()%1000;
@@ -72,7 +73,7 @@ void uploadToFile()
 		else data << x << std::endl;
 	}
 }
-void loadFromFile(node*&H, char*filename)
+void loadFromFile(node*&H, std::string filename)
 {
 	std::ifstream data;
 	data.open(filename);
@@ -97,14 +98,14 @@ void newGap(int &x)
 void combSort(node *&H)
 {
 	pushFront(H,0); //pushing up guardian
-	node *p1=H, *p2=H, *e=NULL;
 	int x=countList(H)-1;
 	bool sorted=false;
+	node *e=NULL;
 
 	while (sorted==false)
 	{
 		newGap(x);
-		p1=H, p2=H;
+		node *p1=H, *p2=H;
 		for (int i=0; i<x; i++)
 		{
 			p2=p2->next;
@@ -127,8 +128,7 @@ void combSort(node *&H)
 		}
 		else if (x==1)
 		{
-			node *p1=H,*p2=H;			
-			p2=p1->next;
+			node *p1=H,*p2=p1->next;
 			sorted=true;
 			while (p2->next!=e)
 			{
