@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/CombSort.dir/sources/main.cpp.o  -o CombSort 
